@@ -1,18 +1,18 @@
 # Ansible Basics and Configuration
 
 ## What This Covers
-Brief 2-3 sentence description of the topic. What problem does this solve?
-What does Ansible use this for in a real environment?
+Installation, configuring SSH access, configuring VIM, project structure files
 
 ## Files in This Folder
 
 | File | Description |
 |---|---|
-| `filename.yml` | What this playbook/file does |
-
+| `ansible.cfg` | **"How"**   The settings manual. It tells Ansible which <br> user to log in as and where the inventory is  |
+| 'inventory'   | **"Who"**   The address book. Lists the IPs of your managed nodes
+| 'site.yml'    | **"What"**  The to-do list. This is the playbook.
 ## Key Concepts Learned
 
-- Concept 1 — one sentence explanation in your own words
+- Concept 1 — 
 - Concept 2 — one sentence explanation in your own words
 - Concept 3 — one sentence explanation in your own words
 

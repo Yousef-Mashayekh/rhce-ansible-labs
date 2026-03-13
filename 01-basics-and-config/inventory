@@ -1,0 +1,13 @@
+# inventory.ini
+art01.ytt.lab
+
+[webservers]
+web1.ytt.lab ansible_host=192.168.1.245
+web2.ytt.lab
+
+[dbservers]
+db1.ytt.lab
+db2.ytt.lab
+
+[production:children]
+webservers

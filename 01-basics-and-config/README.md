@@ -18,10 +18,14 @@ Installation, configuring SSH access, configuring VIM, project structure files
 - **Concept 4** - Agentless: Ansible pushes changes via SSH access and doesnt require anything be installed on the target machine.
 - **Concept 4** - SSH: The identity is tied to the user account, not just the hardware. The "lock" (public key) is stored in the authorized_keys dir on managed node, and the "key" (private key) is stored in in the ~/.ssh/ dir of the user that generated the keys. 
 ## Lab Environment
-- **Control node:** admin.ytt.lab   (192.168.1.227/24)
-- **Managed node(s):** web1.ytt.lab (192.168.1.245/24)
-                       web2.ytt.lab (192.168.1.243/24)
-                       db1.ytt.lab  (192.168.1.242/24)
+- **Control node:**  admin.ytt.lab (10.10.0.1/24)
+- **Managed nodes:** web1.ytt.lab  (10.10.0.3/24)
+                     web2.ytt.lab  (10.10.0.4/24)
+                     db1.ytt.lab   (10.10.0.5/24)
+- **Managed nodes:** server1       (10.10.10.10/24)
+  **(containers)**   server2       (10.10.10.11/24) 
+                     server3       (10.10.10.12/24) 
+                     server4       (10.10.10.13/24)
 - **OS:** RHEL 9 / CentOS Stream
 
 ## Commands / Syntax Reference
